@@ -21,10 +21,17 @@ sdist/
 var/
 wheels/
 share/python-wheels/
+pip-wheel-metadata/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Secrets and Config
+*.pem
+*.key
+*.jsonl
+secrets/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -76,7 +83,8 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
 
 # IPython
 profile_default/
